@@ -1,8 +1,20 @@
-# 🌟 SPCMS: Complete Diagrammatic Technical Approach
+# 🏛️ SPCMS: Complete Diagrammatic Technical Approach
 
-## Smart Pilgrimage Crowd Management System
-### Problem Statement ID: 25165
-### Temple & Pilgrimage Crowd Management (Somnath, Dwarka, Ambaji, Pavagadh)
+<div align="center">
+
+## 🎯 Smart Pilgrimage Crowd Management System
+### 📋 **Problem Statement ID: 25165**
+### 🛕 **Temple & Pilgrimage Crowd Management**
+#### *Somnath • Dwarka • Ambaji • Pavagadh*
+
+**Organization:** Government of Gujarat  
+**Department:** Gujarat Council on Science & Technology (GUJCOST)  
+**Theme:** Heritage & Culture  
+**Category:** Software
+
+**Smart India Hackathon 2025**
+
+</div>
 
 ---
 
