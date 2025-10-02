@@ -1,0 +1,24 @@
+graph TB
+    subgraph "🏛️ SPCMS SYSTEM ARCHITECTURE"
+        A[👥 Pilgrims<br/>📱 Mobile App<br/>🌐 Web Portal<br/>🏪 Kiosks] --> B[🌐 API Gateway<br/>🔐 Authentication<br/>📊 Rate Limiting<br/>🔄 Load Balancing]
+        C[🏛️ Authorities<br/>🖥️ Dashboard<br/>📊 Analytics<br/>🚨 Alerts] --> B
+        D[👨‍💼 Volunteers<br/>📋 Staff App<br/>📞 Communication<br/>🗺️ Maps] --> B
+        
+        B --> E[⚙️ Microservices Layer<br/>👤 User Service | 🎟️ Queue Service<br/>🗺️ Map Service | 🚨 Alert Service<br/>🌐 Language Service | 💳 Payment Service]
+        
+        E --> F[🗄️ Database<br/>🐘 PostgreSQL<br/>🍃 MongoDB<br/>⚡ Redis Cache<br/>📊 InfluxDB]
+        E --> G[🤖 AI/ML Engine<br/>🧠 Prediction Models<br/>📈 Analytics<br/>🔍 Detection<br/>🎯 ML Models]
+        E --> H[📡 IoT Layer<br/>📹 CCTV Cameras<br/>📡 Sensors<br/>🚁 Drones<br/>📱 Beacons]
+        
+        H --> I[🛕 Temple Sites<br/>🕉️ Somnath<br/>🏛️ Dwarka<br/>🙏 Ambaji<br/>⛰️ Pavagadh]
+    end
+    
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    style C fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style E fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    style F fill:#e0f2f1,stroke:#00695c,stroke-width:2px
+    style G fill:#fff8e1,stroke:#f9a825,stroke-width:2px
+    style H fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style I fill:#f1f8e9,stroke:#558b2f,stroke-width:3px
